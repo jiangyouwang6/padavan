@@ -22,7 +22,7 @@ jobs:
         
     - name: Clone source code
       run: |
-        git clone --depth=1 https://github.com/a0575/padavan.git /opt/rt-n56u
+        git clone --depth=1 https://github.com/vb1980/Padavan-KVR.git /opt/rt-n56u
         #cp -r trunk/. /opt/rt-n56u/trunk
         
     - name: Run shellcheck
